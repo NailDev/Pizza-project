@@ -35,6 +35,7 @@ html {
   font-size: 34px;
   line-height: 110%;
   color: rgba(235, 221, 29, 0.819);
+
 }
 .line {
   display: flex;
@@ -85,9 +86,10 @@ html {
 }
 .cart {
   margin-left: 10px;
-  border-radius: 700px;
+  border: none;
+  border-radius: 20px;
   background-color: rgba(235, 221, 29, 0.819);
-  padding: 14px 20px;
+  padding: 12px 20px;
   transition: background-color 0.4s ease-out;
 }
 .cart:hover {
@@ -179,9 +181,8 @@ html {
   }
 }
 header {
+  position: fixed;
   width: 100%;
-  min-height: 890px;
-  height: 126vh;
   background: linear-gradient(
     223deg,
     #170a00 0%,
@@ -190,6 +191,7 @@ header {
     #170a00 100%
   );
 }
+
 .container {
   padding: 35px 105px 0 105px;
 }
@@ -276,6 +278,17 @@ header {
   flex-wrap: wrap;
   justify-content: center;
   gap: 22px;
+}
+.sec1-begi{
+  width: 100%;
+  height: 100vh;
+   background: linear-gradient(
+    223deg,
+    #170a00 0%,
+    #170600 31.43%,
+    #0f0700 69.37%,
+    #170a00 100%
+  );
 }
 
 .card {
@@ -602,19 +615,25 @@ footer {
   font-size: 16px;
 }
 @media (max-width: 1285px) {
-  .burger-menu {
+ .burger-menu {
     display: block;
     margin-right: 30px;
     margin-top: 3px;
-  }
-  .navbar,
-  .btn1text {
-    display: none;
   }
   .wrap_field {
     padding: 10px 20px;
     cursor: pointer;
   }
+  .Logo{
+    margin-left: -10px;
+  }
+
+
+  .navbar,
+  .btn1text {
+    display: none;
+  }
+  
   #modal {
     display: none;
     padding-left: 383px;
@@ -628,8 +647,8 @@ footer {
     transition: 0.3s;
   }
   .cart {
-    margin-left: 790px;
-    margin-right: 10px;
+    margin-left: 720px;
+
   }
   #btny {
     display: flex;
@@ -637,7 +656,7 @@ footer {
 
   .butPop {
     position: fixed;
-    top: 85px;
+    top: 95px;
     left: -100%;
     width: 100%;
     max-width: 100%;
@@ -697,16 +716,16 @@ footer {
   .para_1 {
     font-size: 17px;
   }
-  .inner_1 {
+  /* .inner_1 {
     padding-left: 105px;
-  }
-  .img_pizza img {
+  } */
+  /* .img_pizza img {
     margin-right: 75px;
-  }
+  } */
   .menu {
     font-size: 50px;
   }
-
+  
   .container_sec-1 {
     justify-content: center;
     gap: 40px;

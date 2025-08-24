@@ -109,9 +109,6 @@ html {
 .btn1text:active {
   background-color: rgb(140, 101, 10);
 }
-.cart {
-  margin-left: 10px;
-}
 
 #modal {
   display: none;
@@ -462,7 +459,6 @@ footer {
     transition: 0.3s;
   }
   .cart {
-
     margin-left: 720px;
   }
   #btny {
