@@ -112,14 +112,14 @@ html {
 
 #modal {
   display: none;
-  position: fixed;
-
-  left: 33%;
-  top: 40%;
-  
+  padding-left: 483px;
+  padding-top: 180px;
 }
 
 .modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -449,7 +449,8 @@ footer {
   }
   #modal {
     display: none;
-
+    padding-left: 383px;
+    padding-top: 180px;
   }
   .bar_burg {
     display: block;
@@ -612,14 +613,10 @@ footer {
     margin-left: -20px;
   }
   #modal {
-
-  display: none;
-  position: fixed;
-
-  right: 63%;
-  top: 40%;
-  
-}
+    display: none;
+    padding-left: 243px;
+    padding-top: 180px;
+  }
   
   .cart {
     margin-left: 350px;
@@ -716,7 +713,7 @@ footer {
     justify-content: center;
     gap: 20px;
   }
-  #modal {
+   #modal {
     display: none;
     padding-left: 123px;
     padding-top: 180px;
@@ -835,7 +832,7 @@ footer {
   .modal-content {
     width: 300px;
   }
-  #modal {
+   #modal {
     display: none;
     padding-left: 83px;
     padding-top: 180px;
@@ -905,9 +902,9 @@ footer {
   .modal-content {
     width: 300px;
   }
-  #modal {
+   #modal {
     display: none;
-    padding-left: 43px;
+    padding-left: 53px;
     padding-top: 180px;
   }
   .typ{
